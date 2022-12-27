@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: whitesmoke;
+    justify-content: center;
+    display: flex;
+}
+
+.container{
+    display: flex;
+    background-color: rgba(247, 247, 247, 0.521);
+    box-shadow: grey 10px;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    position: fixed;
+    width: 600px;
+    height: fit-content;
+    border-radius: 20px;
+    box-shadow: 22px 22px 52px -10px rgba(0,0,0,0.62);
+    -webkit-box-shadow: 22px 22px 52px -10px rgba(0,0,0,0.62);
+    -moz-box-shadow: 22px 22px 52px -10px rgba(0,0,0,0.62);
+}
+
+.wadah{
+    color: grey;
+    font-family: 'Mochiy Pop P One', sans-serif, monospace;
+    align-items: center;
+}
+
+.judul{
+    padding-left: 20px;
+}
+
+.deskripsi{
+    font-family: 'Poppins', sans-serif;
+    color: grey;
+    padding: 20px;
+}
+
+.wadah .photo{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background: url(img.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.banner{
+    background: url(img.png); /*rgb(209, 209, 209); */
+    border-radius: 20px 20px 0 0;
+    width: 560px;
+    padding: 20px;
+    background-position: center;
+    background-size: cover;
+}
+
+.link{
+    padding: 40px;
+}
+.blue{
+    color: #0C8FF3;
+    border: #0C8FF3 3px solid;
+}
+.red{
+    color: #FC0404;
+    border: #FC0404 3px solid;
+}
+.purple{
+    color: #9444FC;
+    border: #9444FC 3px solid;
+}
+.pink{
+    color: #F40864;
+    border: #F40864 3px solid;
+}
+
+.blue:hover{
+    background-color: #0C8FF3;
+    color: white;
+    border: #0C8FF3 3px solid;
+}
+.red:hover{
+    background-color: #FC0404;
+    color: white;
+    border: #FC0404 3px solid;
+}
+.purple:hover{
+    background-color: #9444FC;
+    color: white;
+    border: #9444FC 3px solid;
+}
+.pink:hover{
+    background-color: #F40864;
+    color: white;
+    border: #F40864 3px solid;
+}
+.btn{
+    padding: 10px;
+    width: 80px;
+    background: transparent;
+    border-radius: 20px;
+    font-size: 27px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.navbar{
+    display: flex;
+    position: absolute;
+    background-color: white;
+    width: 560px;
+    border-radius: 20px;
+}
+.nav-content{
+    font-family: 'Poppins', sans-serif, monospace;
+    padding: 13px;
+    text-decoration: none;
+    margin: 10px;
+    border-radius: 10px;
+    height: fit-content;
+}
+
+.nav-content:hover{
+    transition: .8s;
+    background-color: rgb(206, 206, 206);
+}
